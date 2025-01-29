@@ -79,6 +79,7 @@ margin-top: 10px;
  margin-right: 20% ;
  padding: 15px ;
  width: 60% ;
+ background-color: #DB7093;
 }
  #article:after{
  clear: both;
@@ -93,7 +94,7 @@ position: relative;
 width: 600px;
 height: 400px;
 margin: 0 auto;
-overflow: hidden;
+overflow: hidden;;
 }
 .slider {
 display: flex;
@@ -102,7 +103,7 @@ display: flex;
 .slider img {
  width: 100%;
  height: 1005;
-object-fit: cover;
+object-fit: cover;;
 }
 .prev-button,.next-button {
  position: absolute;
@@ -112,7 +113,7 @@ object-fit: cover;
  background-color: transparent;
 border: none;
 font-size: 24px;
-color: white;
+color: #ee82ee;
 }
 .prev-button {
  left: 10px;
@@ -122,7 +123,9 @@ color: white;
 }
 .fist-img{
   width: 270px;
-  float: left;
+  float:left;
+  border:10px solid #8b0000;
+  border-radius: 50px;
 }
 #article > h1{
   text-align: center;
@@ -133,6 +136,15 @@ color: white;
 }
 .second-img{
   width: 270px;
-  float:left;
+  float: right;
+  border:10px solid #8b0000;
+  border-radius: 50px;
+
+}
+.three-img{
+  width: 270px;
+  float: left;
+  border:10px solid #8b0000;
+  border-radius: 50px;
 }
 
